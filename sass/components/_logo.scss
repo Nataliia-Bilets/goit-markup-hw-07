@@ -1,0 +1,19 @@
+.logo-header,
+.logo-footer {
+    width: 145px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accente-text-color);
+}
+.logo-header {
+    margin-right: 93px;
+}
+
+.logo-header__dark {
+    color: var(--auxi-text-color);
+}
+.logo-footer__light {
+    color: var(--primary-text-color-team-dark);
+}

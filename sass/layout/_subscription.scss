@@ -1,0 +1,57 @@
+.subscription {
+    margin-left: auto;
+}
+.subscription__title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color-team-dark);
+    margin-bottom: 20px;
+}
+
+.subscription__form {
+    display: flex;
+    align-items: center;
+}
+
+.subscription__form-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--secondary-bgc);
+    margin-right: 12px;
+    padding: 15px 16px;
+    width: 358px;
+    color: var(--primary-text-color-team-dark);
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+
+.subscription__form-submit {
+    padding: 10px 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-team-dark);
+    background-color: var(--accente-bgc);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    gap: 10px;
+    transition: background-color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accente-text-color);
+    }
+}
+
+
+.subscription__form-icon {
+    fill: var(--primary-bgc)
+}

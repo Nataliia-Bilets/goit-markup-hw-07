@@ -1,0 +1,38 @@
+.container-address {
+    margin-right: 70px;
+}
+
+.page-address {
+    margin-top: 20px;
+}
+
+.address-menu__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-menu__maps {
+    margin-bottom: 9px;
+    line-height: 1.71;
+    font-style: normal;
+    color: var(--primary-text-color-team-dark);
+    transition: color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accente-text-color);
+    }
+}
+
+.address-menu__mail,
+.address-menu__phone {
+    line-height: 1.71;
+    font-style: normal;
+    color: var(--alfa-text-color);
+    transition: color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accente-text-color);
+    }
+}
+
